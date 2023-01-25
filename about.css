@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@1&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+nav {
+    -webkit-box-shadow: 0 4px 11.5px 2.5px #dddddd;
+    -moz-box-shadow: 0 4px 11.5px 2.5px #dddddd;
+    box-shadow: 0 4px 11.5px 2.5px #dddddd;
+}
+
+#brand_img {
+    width: 100px;
+    height: 80px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title>h2 {
+    color: rgb(76, 3, 212);
+    /* color: #3F51B5; */
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.nav_items {
+    display: flex;
+    gap: 40px;
+}
+
+.nav_texts {
+    color: rgb(92, 25, 215);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transform: 1s;
+    padding: 6px;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .5s;
+}
+
+nav ul li a:hover {
+    color: rgb(25, 15, 53);
+}
+
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+    position: relative;
+}
+
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: rgb(126, 77, 250);
+    height: 3px;
+}
+
+nav.stroke ul li a:hover:after {
+    width: 100%;
+}
+
+.act {
+    border-bottom: 3.5px solid rgb(126, 77, 250);
+}
+
+/* =================================================================================
+                                First Part
+======================================================================================= */
+#first {
+   background-image: url(images/ivana-cajina-dQejX2ucPBs-unsplash.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+}
+#first_content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: rgba(99, 10, 223, 0.476);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    padding: 2%;
+}
+#about_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about_content>h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Fanwood Text', cursive;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+#about_content>p{
+    text-align: center;
+    width: 80%;
+    color: rgb(255, 255, 255);
+    font-family: 'sans', serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+#second{
+    background-image: url(images/blob-scene-haikei.svg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+}
