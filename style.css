@@ -88,12 +88,13 @@ nav.fill ul li a:after {
     width: 0%;
     content: '.';
     color: transparent;
-    background: rgb(126, 77, 250);
+    background: rgb(255, 255, 255);
     height: 3px;
 }
 
 nav.stroke ul li a:hover:after {
     width: 100%;
+    background: rgb(126, 77, 250);
 }
 
 /* ========================================================= */
@@ -672,7 +673,7 @@ footer {
     padding-top: 2%;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:913px){
     .title>h2{
         font-size: 28px;
     }
@@ -681,7 +682,7 @@ footer {
         height: 60px;
     }
     .header{
-     margin-top: 20%;   
+     margin-top:10%;   
     }
     #header_content {
         justify-content:center;
@@ -691,11 +692,11 @@ footer {
         margin: 0px;
     }
     #content>h1 {
-        font-size: 45px;
+        font-size: 65px;
         text-align: center;
     }
     #content>p{
-        font-size: 16px;
+        font-size: 26px;
         width: 86%;
     }
     #header_btn {
@@ -718,7 +719,7 @@ footer {
         text-align: center;
     }
     #second_content>h1 {
-        font-size: 35px;
+        font-size: 45px;
         color: #2a1247;
         font-weight: 700;
         
@@ -726,7 +727,7 @@ footer {
     #second_content>p {
         width: 85%;
         text-align: justify;
-        font-size: 20px;
+        font-size: 23px;
         color: #2a1247;
     }
     #Second_btn_div {
@@ -744,8 +745,8 @@ footer {
         width: 100%;
     }
     #second_img_1 {
-        height: 340px;
-        width: 340px;
+        height: 540px;
+        width: 540px;
     }
 
     /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
